@@ -17,7 +17,7 @@ link_directories(${Boost_LIBRARY_DIR})
 
 add_executable(main src/main.cpp src/boost_offset.cpp src/hvar.cpp src/get_data.cpp src/scanner.cpp ${HEADER_FILES})
 
-#add_executable(Figures src/Figures.cpp src/boost_offset.cpp src/hvar.cpp src/get_data.cpp src/scanner.cpp ${FIGURES} ${HEADER_FILES})
+add_executable(Figures src/Figures.cpp src/boost_offset.cpp src/hvar.cpp src/get_data.cpp src/scanner.cpp ${FIGURES} ${HEADER_FILES})
 
 #add_executable(gamma_test src/gamma_test.cpp ${HEADER_FILES})
 
